@@ -1,0 +1,52 @@
+{
+  "name": "rss-to-telegram",
+  "version": "1.0.5",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabiel-leon/rss-to-facebook.git"
+  },
+  "keywords": [
+    "rss",
+    "facebook",
+    "cron",
+    "timezone",
+    "publish",
+    "messages",
+    "channel",
+    "bot",
+    "filter",
+    "preview",
+    "fabiel-leon",
+    "template",
+    "html",
+    "handlebars",
+    "async",
+    "promises",
+    "node-fetch",
+    "fetch",
+    "sanitize"
+  ],
+  "author": "Fabiel Leon <fabiel.leon.oliva@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabiel-leon/rss-to-facebook/issues"
+  },
+  "homepage": "https://github.com/fabiel-leon/rss-to-facebook#readme",
+  "dependencies": {
+    "async": "^3.2.0",
+    "cron": "^1.8.2",
+    "fb": "^2.0.0",
+    "rss-rewriter": "^1.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
